@@ -93,9 +93,19 @@ disabled = true
 
 Change the default of the iTerm2 terminal to work with fish ,Run the following commands
 
+Test fish install location 
+
+`which fish`
+
 ```
 echo /usr/local/bin/fish | sudo tee -a /etc/shells
 chsh -s /usr/local/bin/fish
+```
+
+For mack M4  run
+```
+sudo sh -c 'echo /opt/homebrew/bin/fish >> /etc/shells'
+chsh -s /opt/homebrew/bin/fish
 ```
 
 Change the default of the vsCode terminal to work with fish ,Run the following commands
@@ -103,14 +113,9 @@ Change the default of the vsCode terminal to work with fish ,Run the following c
 `> Terminal: Select Default Profile`
 and pick the `fish`.
 
-## Step 4 :
-
-Install [Fig](https://fig.io/) with `brew install --cask fig` write fig on terminal for configuration.
-
 ## Step 5 :
 
-Download and install [Hack Regular Nerd Font](https://github.com/ryanoasis/nerd-fonts/blob/master/patched-fonts/Hack/Regular/complete/Hack%20Regular%20Nerd%20Font%20Complete.ttf)
-Go to Profiles of iTerm2 click : Open Profiles > Edit Profiles and navigate to Text and then change Font to 'Hack Nerd Font'
+`brew install --cask font-hackgen-nerd`
 
 > in vsCode settings.json change like this :
 

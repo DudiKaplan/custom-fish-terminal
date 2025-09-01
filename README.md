@@ -130,7 +130,7 @@ and pick the `fish`.
    "editor.fontFamily": "Fira Code",
    "editor.fontLigatures": true,
    "terminal.integrated.defaultProfile.osx": "fish",
-   "terminal.integrated.fontFamily": "Hack Nerd Font"
+   "terminal.integrated.fontFamily": "HackGen Console NF"
  }
 ```
 
